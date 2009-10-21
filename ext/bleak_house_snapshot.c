@@ -144,7 +144,7 @@ Run your app. Once it exits, analyze your data:
 
 */
 void
-Init_snapshot()
+Init_bleak_house_snapshot()
 {
   rb_mB = rb_define_module("BleakHouse");
   rb_define_singleton_method(rb_mB, "ext_snapshot", ext_snapshot, 2);
