@@ -1,5 +1,5 @@
 #include <time.h>
-#include "snapshot.h"
+#include "bleak_house_snapshot.h"
 
 static VALUE rb_mB;
 static VALUE rb_cC;

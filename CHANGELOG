@@ -1,3 +1,4 @@
+v4.6.2-declanmcgrath(theirishpenguin) Changed snapshot to bleak_house_snapshot on the C side of things to avoid namespace clashes between Bleak House's Snapshot class and any Snapshot classes that may be defined in the end users project.
 
 v4.6.1. Allow snapshotting without running the GC first.
 

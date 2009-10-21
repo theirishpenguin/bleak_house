@@ -4,7 +4,7 @@ unless RUBY_PATCHLEVEL >= 905
 end
 
 RUBY_VERSION = `ruby -v`.split(" ")[1]
-require 'snapshot'
+require 'bleak_house_snapshot'
 require 'bleak_house/hook'
 
 class << BleakHouse
